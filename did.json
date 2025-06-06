@@ -1,0 +1,23 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/"
+  ],
+  "id": "did:web:raw.githubusercontent.com:Phinodel:trusted-id:main",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:Phinodel:trusted-id:main#UiD678",
+      "type": "JsonWebKey2020",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "alg": "RS256",
+        "n": "vtSbTs--ritYaAyuk7OJcpx4xKtjLdFiBxz3nXJIpG-pa-5zUdzTVxm8tAfR_TpxcCSUGnKzI6nMuKtM9nQsODvOdHQbwL6SMYtmTFS6N_N220riNJPQhJEPghJ10toRc0o6xgFmAPogB7yPKvw0hM1q8UZ4J1inVJ5F1Zl-1902orPVm6R6bJsi-OH8xTCWouz-A49G1nmU2kY3AjERDeTRPW2Vp1xMZ_DpueL5ZwmqqsC-ABIg9HxGBoveJfUjV3gyl-UvxiE_Oca03b3FQO6qSTNgQr8YzNtvVKR6Cx8EtvQj0fna_QhbHdhMicQSmWxSMJPm4tCUwO-2QQqK7Q",
+        "e": "AQAB",
+        "x5u": "https://raw.githubusercontent.com/Phinodel/trusted-id/main/cert.pem"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:raw.githubusercontent.com:Phinodel:trusted-id:main#UiD678"
+  ]
+}
