@@ -6,18 +6,18 @@
   "id": "did:web:raw.githubusercontent.com:Phinodel:trusted-id:main",
   "verificationMethod": [
     {
-      "id": "did:web:raw.githubusercontent.com:Phinodel:trusted-id:main#UiD678",
+      "id": "did:web:raw.githubusercontent.com:Phinodel:trusted-id:main#UiD678decla",
       "type": "JsonWebKey2020",
       "publicKeyJwk": {
-        "kty": "RSA",
         "alg": "RS256",
-        "n": "vtSbTs--ritYaAyuk7OJcpx4xKtjLdFiBxz3nXJIpG-pa-5zUdzTVxm8tAfR_TpxcCSUGnKzI6nMuKtM9nQsODvOdHQbwL6SMYtmTFS6N_N220riNJPQhJEPghJ10toRc0o6xgFmAPogB7yPKvw0hM1q8UZ4J1inVJ5F1Zl-1902orPVm6R6bJsi-OH8xTCWouz-A49G1nmU2kY3AjERDeTRPW2Vp1xMZ_DpueL5ZwmqqsC-ABIg9HxGBoveJfUjV3gyl-UvxiE_Oca03b3FQO6qSTNgQr8YzNtvVKR6Cx8EtvQj0fna_QhbHdhMicQSmWxSMJPm4tCUwO-2QQqK7Q",
-        "e": "AQAB",
-        "x5u": "https://raw.githubusercontent.com/Phinodel/trusted-id/main/cert.pem"
+        "x5u": "https://raw.githubusercontent.com/Phinodel/trusted-id/main/cert.pem",
+        "kty": "RSA",
+        "n": "xoV1kfoLOg1gw0aM9gORSu9tsQmXuT1GisCOSDzRKoulgZR-VYbFsxIQ-Xx_WB0p1vBgUgw-g2UR_LCNRRaSz-e2VWa6aAjRLydouMU1IGZnb0YaWbKX74yu8w8O3FXwGZVGBM1Ia7qNHfshG72PjBZelbbe9YOtYwqrMUSII55OS1Dds7qEd5-yQ7Of3KEiCWz4zRqrY6g63RN2FchVpEzspAMSM9hfIfrVq47l0O7sFi8eTa9jhNndqTmt_9z_vCO11u4gCaeres8X-Oc-Qi51iBq7oQUS1nm_Hg4en5feOUELA9THKEnKoV2SvxTa8V1nNbuWh7hp3MsTw2eXgw",
+        "e": "AQAB"
       }
     }
   ],
   "assertionMethod": [
-    "did:web:raw.githubusercontent.com:Phinodel:trusted-id:main#UiD678"
+    "did:web:raw.githubusercontent.com:Phinodel:trusted-id:main#UiD678decla"
   ]
 }
